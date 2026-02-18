@@ -14,7 +14,7 @@ import org.springframework.data.domain.Sort;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
+
 import java.util.List;
 
 import static com.wajdigabsi.book.book.BookSpecification.withOwnerId;
