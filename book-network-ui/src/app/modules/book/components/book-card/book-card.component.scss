@@ -1,0 +1,12 @@
+
+div {
+  &.card {
+    max-height: 450px;
+    min-height: 450px;
+  }
+}
+// pour fixé la taille du tous le card , on cas d'une image plus grand ou un text plus long.
+
+i {
+  cursor: pointer;
+}

@@ -1,5 +1,7 @@
 <h3>Books list</h3>
 <hr>
 <div class="d-flex justify-content-start gap-2 flex-wrap">
-  books list
+<app-book-card [book]="book" *ngFor="let book of bookResponse?.contet">
+  {{ book.title }}
+</app-book-card>
 </div>

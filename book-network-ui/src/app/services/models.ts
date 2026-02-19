@@ -3,4 +3,9 @@
 
 export type { AuthenticationReques } from './models/authentication-reques';
 export type { AuthenticationResponse } from './models/authentication-response';
+export type { BookRequest } from './models/book-request';
+export type { BookResponse } from './models/book-response';
+export type { BorrowedBookResponse } from './models/borrowed-book-response';
+export type { PageResponseBookResponse } from './models/page-response-book-response';
+export type { PageResponseBorrowedBookResponse } from './models/page-response-borrowed-book-response';
 export type { RegistrationRequest } from './models/registration-request';
