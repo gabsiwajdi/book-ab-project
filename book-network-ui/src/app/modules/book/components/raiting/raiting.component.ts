@@ -1,8 +1,9 @@
 import {Component, Input} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
 @Component({
   selector: 'app-raiting',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './raiting.component.html',
   styleUrl: './raiting.component.scss'
 })
@@ -16,7 +17,7 @@ export class RaitingComponent {
     return Math.floor(this.rating)
   }
 
-  get halfStar():boolean {
+  get hasHalfStar():boolean {
     return this.rating % 1 !== 0;
   }
 

@@ -46,5 +46,10 @@ export class BookListComponent implements OnInit{
 
   }
 
+  goToFirstPage(){}
+  goToPreviousPage(){}
+  gotToPage(index:number){}
+  goToNextPage(){}
+  goToLastPage(){}
 
   }
